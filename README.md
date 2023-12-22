@@ -1,5 +1,3 @@
-[![star](https://gitee.com/dromara/electron-egg/badge/star.svg?theme=gvp)](https://gitee.com/dromara/electron-egg/stargazers)
-
 <div align=center>
 <h3>🎉🎉🎉 随机壁纸 🎉🎉🎉</h3>
 </div>
@@ -14,4 +12,4 @@
 
 - 🍩 兼容此项目兼容MAC和window，一键下载及设置壁纸
 - 🍉 还有个问题，MAC设置完成后重启会丢失，没有研究问题在哪里
-- 🌱 本人编码能力有限，大佬们口下留情
+- 🌱 本人编码能力有限，大佬们口下留情，欢迎折腾
