@@ -1,5 +1,17 @@
-# Welcome to GitHub Desktop!
+[![star](https://gitee.com/dromara/electron-egg/badge/star.svg?theme=gvp)](https://gitee.com/dromara/electron-egg/stargazers)
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
+<div align=center>
+<h3>🎉🎉🎉 随机壁纸 🎉🎉🎉</h3>
+</div>
+<br>
 
-Write your name on line 6, save it, and then head back to GitHub Desktop.
+<div align=center>
+<h3><strong>基于Electron-Egg框架开发</strong></h3>
+</div>
+<br>
+
+## 📋 介绍
+
+- 🍩 兼容此项目兼容MAC和window，一键下载及设置壁纸
+- 🍉 还有个问题，MAC设置完成后重启会丢失，没有研究问题在哪里
+- 🌱 本人编码能力有限，大佬们口下留情

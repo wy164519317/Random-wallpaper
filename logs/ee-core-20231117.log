@@ -1,0 +1,286 @@
+2023-11-17 08:44:58,116 INFO 3188 [ee-core] Env: local, Type: spa
+2023-11-17 08:44:58,116 INFO 3188 [ee-core] App running at: http://localhost:8080
+2023-11-17 09:07:22,404 INFO 4958 [ee-core] Env: local, Type: spa
+2023-11-17 09:07:22,404 INFO 4958 [ee-core] App running at: http://localhost:8080
+2023-11-17 09:09:17,651 INFO 5022 [ee-core] Env: local, Type: spa
+2023-11-17 09:09:17,651 INFO 5022 [ee-core] App running at: http://localhost:8080
+2023-11-17 10:05:05,768 INFO 5776 [ee-core] Env: local, Type: spa
+2023-11-17 10:05:05,768 INFO 5776 [ee-core] App running at: http://localhost:8080
+2023-11-17 10:32:32,224 ERROR 6031 nodejs.unhandledExceptionError: require() of ES Module /Users/mengweiyi/Desktop/electron-egg-master/node_modules/wallpaper/index.js from /Users/mengweiyi/Desktop/electron-egg-master/main.js not supported.
+Instead change the require of index.js in /Users/mengweiyi/Desktop/electron-egg-master/main.js to a dynamic import() which is available in all CommonJS modules.
+Instead change the require of index.js in /Users/mengweiyi/Desktop/electron-egg-master/main.js to a dynamic import() which is available in all CommonJS modules.
+    at c._load (node:electron/js2c/asar_bundle:5:13343)
+    at Object.<anonymous> (/Users/mengweiyi/Desktop/electron-egg-master/main.js:5:19)
+    at c._load (node:electron/js2c/asar_bundle:5:13343)
+    at loadApplicationPackage (/Users/mengweiyi/Desktop/electron-egg-master/node_modules/electron/dist/Electron.app/Contents/Resources/default_app.asar/main.js:121:16)
+    at Object.<anonymous> (/Users/mengweiyi/Desktop/electron-egg-master/node_modules/electron/dist/Electron.app/Contents/Resources/default_app.asar/main.js:233:9)
+    at c._load (node:electron/js2c/asar_bundle:5:13343)
+    at Object.<anonymous> (node:electron/js2c/browser_init:189:3102)
+    at ./lib/browser/init.ts (node:electron/js2c/browser_init:189:3306)
+    at __webpack_require__ (node:electron/js2c/browser_init:1:128)
+    at node:electron/js2c/browser_init:1:1200
+    at node:electron/js2c/browser_init:1:1267
+    at c._load (node:electron/js2c/asar_bundle:5:13343)
+code: "ERR_REQUIRE_ESM"
+name: "unhandledExceptionError"
+pid: 6031
+hostname: lvjianyundeMacBook-Pro.local
+
+2023-11-17 10:32:34,256 INFO 6031 [ee-core] Env: local, Type: spa
+2023-11-17 10:32:34,257 INFO 6031 [ee-core] App running at: http://localhost:8080
+2023-11-17 10:39:41,153 ERROR 6148 nodejs.unhandledExceptionError: require() of ES Module /Users/mengweiyi/Desktop/electron-egg-master/node_modules/wallpaper/index.js from /Users/mengweiyi/Desktop/electron-egg-master/main.js not supported.
+Instead change the require of index.js in /Users/mengweiyi/Desktop/electron-egg-master/main.js to a dynamic import() which is available in all CommonJS modules.
+Instead change the require of index.js in /Users/mengweiyi/Desktop/electron-egg-master/main.js to a dynamic import() which is available in all CommonJS modules.
+    at c._load (node:electron/js2c/asar_bundle:5:13343)
+    at Object.<anonymous> (/Users/mengweiyi/Desktop/electron-egg-master/main.js:5:19)
+    at c._load (node:electron/js2c/asar_bundle:5:13343)
+    at loadApplicationPackage (/Users/mengweiyi/Desktop/electron-egg-master/node_modules/electron/dist/Electron.app/Contents/Resources/default_app.asar/main.js:121:16)
+    at Object.<anonymous> (/Users/mengweiyi/Desktop/electron-egg-master/node_modules/electron/dist/Electron.app/Contents/Resources/default_app.asar/main.js:233:9)
+    at c._load (node:electron/js2c/asar_bundle:5:13343)
+    at Object.<anonymous> (node:electron/js2c/browser_init:189:3102)
+    at ./lib/browser/init.ts (node:electron/js2c/browser_init:189:3306)
+    at __webpack_require__ (node:electron/js2c/browser_init:1:128)
+    at node:electron/js2c/browser_init:1:1200
+    at node:electron/js2c/browser_init:1:1267
+    at c._load (node:electron/js2c/asar_bundle:5:13343)
+code: "ERR_REQUIRE_ESM"
+name: "unhandledExceptionError"
+pid: 6148
+hostname: lvjianyundeMacBook-Pro.local
+
+2023-11-17 10:39:42,947 INFO 6148 [ee-core] Env: local, Type: spa
+2023-11-17 10:39:42,948 INFO 6148 [ee-core] App running at: http://localhost:8080
+2023-11-17 10:46:08,200 ERROR 6232 nodejs.unhandledExceptionError: require() of ES Module /Users/mengweiyi/Desktop/electron-egg-master/node_modules/wallpaper/index.js from /Users/mengweiyi/Desktop/electron-egg-master/main.js not supported.
+Instead change the require of index.js in /Users/mengweiyi/Desktop/electron-egg-master/main.js to a dynamic import() which is available in all CommonJS modules.
+Instead change the require of index.js in /Users/mengweiyi/Desktop/electron-egg-master/main.js to a dynamic import() which is available in all CommonJS modules.
+    at c._load (node:electron/js2c/asar_bundle:5:13343)
+    at Object.<anonymous> (/Users/mengweiyi/Desktop/electron-egg-master/main.js:5:19)
+    at c._load (node:electron/js2c/asar_bundle:5:13343)
+    at loadApplicationPackage (/Users/mengweiyi/Desktop/electron-egg-master/node_modules/electron/dist/Electron.app/Contents/Resources/default_app.asar/main.js:121:16)
+    at Object.<anonymous> (/Users/mengweiyi/Desktop/electron-egg-master/node_modules/electron/dist/Electron.app/Contents/Resources/default_app.asar/main.js:233:9)
+    at c._load (node:electron/js2c/asar_bundle:5:13343)
+    at Object.<anonymous> (node:electron/js2c/browser_init:189:3102)
+    at ./lib/browser/init.ts (node:electron/js2c/browser_init:189:3306)
+    at __webpack_require__ (node:electron/js2c/browser_init:1:128)
+    at node:electron/js2c/browser_init:1:1200
+    at node:electron/js2c/browser_init:1:1267
+    at c._load (node:electron/js2c/asar_bundle:5:13343)
+code: "ERR_REQUIRE_ESM"
+name: "unhandledExceptionError"
+pid: 6232
+hostname: lvjianyundeMacBook-Pro.local
+
+2023-11-17 10:46:10,004 INFO 6232 [ee-core] Env: local, Type: spa
+2023-11-17 10:46:10,005 INFO 6232 [ee-core] App running at: http://localhost:8080
+2023-11-17 10:47:52,380 ERROR 6307 nodejs.unhandledExceptionError: require() of ES Module /Users/mengweiyi/Desktop/electron-egg-master/node_modules/wallpaper/index.js from /Users/mengweiyi/Desktop/electron-egg-master/main.js not supported.
+Instead change the require of index.js in /Users/mengweiyi/Desktop/electron-egg-master/main.js to a dynamic import() which is available in all CommonJS modules.
+Instead change the require of index.js in /Users/mengweiyi/Desktop/electron-egg-master/main.js to a dynamic import() which is available in all CommonJS modules.
+    at c._load (node:electron/js2c/asar_bundle:5:13343)
+    at Object.<anonymous> (/Users/mengweiyi/Desktop/electron-egg-master/main.js:5:19)
+    at c._load (node:electron/js2c/asar_bundle:5:13343)
+    at loadApplicationPackage (/Users/mengweiyi/Desktop/electron-egg-master/node_modules/electron/dist/Electron.app/Contents/Resources/default_app.asar/main.js:121:16)
+    at Object.<anonymous> (/Users/mengweiyi/Desktop/electron-egg-master/node_modules/electron/dist/Electron.app/Contents/Resources/default_app.asar/main.js:233:9)
+    at c._load (node:electron/js2c/asar_bundle:5:13343)
+    at Object.<anonymous> (node:electron/js2c/browser_init:189:3102)
+    at ./lib/browser/init.ts (node:electron/js2c/browser_init:189:3306)
+    at __webpack_require__ (node:electron/js2c/browser_init:1:128)
+    at node:electron/js2c/browser_init:1:1200
+    at node:electron/js2c/browser_init:1:1267
+    at c._load (node:electron/js2c/asar_bundle:5:13343)
+code: "ERR_REQUIRE_ESM"
+name: "unhandledExceptionError"
+pid: 6307
+hostname: lvjianyundeMacBook-Pro.local
+
+2023-11-17 10:47:54,071 INFO 6307 [ee-core] Env: local, Type: spa
+2023-11-17 10:47:54,072 INFO 6307 [ee-core] App running at: http://localhost:8080
+2023-11-17 10:53:31,518 INFO 6472 [ee-core] Env: local, Type: spa
+2023-11-17 10:53:31,518 INFO 6472 [ee-core] App running at: http://localhost:8080
+2023-11-17 11:06:59,014 INFO 6757 [ee-core] Env: local, Type: spa
+2023-11-17 11:06:59,014 INFO 6757 [ee-core] App running at: http://localhost:8080
+2023-11-17 11:16:24,840 INFO 6837 [ee-core] Env: local, Type: spa
+2023-11-17 11:16:24,840 INFO 6837 [ee-core] App running at: http://localhost:8080
+2023-11-17 11:17:27,705 INFO 6889 [ee-core] Env: local, Type: spa
+2023-11-17 11:17:27,706 INFO 6889 [ee-core] App running at: http://localhost:8080
+2023-11-17 11:44:05,289 ERROR 6889 nodejs.TypeError: Protocol "https:" not supported. Expected "http:"
+    at new NodeError (node:internal/errors:372:5)
+    at new ClientRequest (node:_http_client:164:11)
+    at request (node:http:96:10)
+    at Object.get (node:http:107:15)
+    at downloadImage (/Users/mengweiyi/Desktop/electron-egg-master/main.js:23:8)
+    at IpcMainImpl.<anonymous> (/Users/mengweiyi/Desktop/electron-egg-master/main.js:13:5)
+    at IpcMainImpl.emit (node:events:527:28)
+    at EventEmitter.<anonymous> (node:electron/js2c/browser_init:165:11237)
+    at EventEmitter.emit (node:events:527:28)
+code: "ERR_INVALID_PROTOCOL"
+pid: 6889
+hostname: lvjianyundeMacBook-Pro.local
+
+2023-11-17 11:44:05,305 ERROR 6889 nodejs.unhandledExceptionError: ENOENT: no such file or directory, open '/Users/mengweiyi/Desktop/壁纸/https://static.naivetab.com/wallpaper/sports/7005c49233fb5184ecd9a409.jpg'
+Error: ENOENT: no such file or directory, open '/Users/mengweiyi/Desktop/壁纸/https://static.naivetab.com/wallpaper/sports/7005c49233fb5184ecd9a409.jpg'
+errno: -2
+code: "ENOENT"
+syscall: "open"
+path: "/Users/mengweiyi/Desktop/壁纸/https://static.naivetab.com/wallpaper/sports/7005c49233fb5184ecd9a409.jpg"
+name: "unhandledExceptionError"
+pid: 6889
+hostname: lvjianyundeMacBook-Pro.local
+
+2023-11-17 11:45:53,201 INFO 7153 [ee-core] Env: local, Type: spa
+2023-11-17 11:45:53,201 INFO 7153 [ee-core] App running at: http://localhost:8080
+2023-11-17 11:47:13,831 INFO 7201 [ee-core] Env: local, Type: spa
+2023-11-17 11:47:13,831 INFO 7201 [ee-core] App running at: http://localhost:8080
+2023-11-17 11:49:28,615 INFO 7283 [ee-core] Env: local, Type: spa
+2023-11-17 11:49:28,615 INFO 7283 [ee-core] App running at: http://localhost:8080
+2023-11-17 11:49:40,203 ERROR 7283 nodejs.unhandledExceptionError: ENOENT: no such file or directory, open '/Users/mengweiyi/Desktop/壁纸/https://static.naivetab.com/wallpaper/love/966fbcabdad35184ec79d41b.jpg'
+Error: ENOENT: no such file or directory, open '/Users/mengweiyi/Desktop/壁纸/https://static.naivetab.com/wallpaper/love/966fbcabdad35184ec79d41b.jpg'
+errno: -2
+code: "ENOENT"
+syscall: "open"
+path: "/Users/mengweiyi/Desktop/壁纸/https://static.naivetab.com/wallpaper/love/966fbcabdad35184ec79d41b.jpg"
+name: "unhandledExceptionError"
+pid: 7283
+hostname: lvjianyundeMacBook-Pro.local
+
+2023-11-17 11:50:14,881 ERROR 7283 nodejs.unhandledExceptionError: ENOENT: no such file or directory, open '/Users/mengweiyi/Desktop/壁纸/74378e18bddb0184ecc6d198.jpg'
+Error: ENOENT: no such file or directory, open '/Users/mengweiyi/Desktop/壁纸/74378e18bddb0184ecc6d198.jpg'
+errno: -2
+code: "ENOENT"
+syscall: "open"
+path: "/Users/mengweiyi/Desktop/壁纸/74378e18bddb0184ecc6d198.jpg"
+name: "unhandledExceptionError"
+pid: 7283
+hostname: lvjianyundeMacBook-Pro.local
+
+2023-11-17 11:50:30,761 ERROR 7283 nodejs.unhandledExceptionError: ENOENT: no such file or directory, open '/Users/mengweiyi/Desktop/壁纸/e394e467fe44d184ecb55c8c.jpg'
+Error: ENOENT: no such file or directory, open '/Users/mengweiyi/Desktop/壁纸/e394e467fe44d184ecb55c8c.jpg'
+errno: -2
+code: "ENOENT"
+syscall: "open"
+path: "/Users/mengweiyi/Desktop/壁纸/e394e467fe44d184ecb55c8c.jpg"
+name: "unhandledExceptionError"
+pid: 7283
+hostname: lvjianyundeMacBook-Pro.local
+
+2023-11-17 12:59:54,849 INFO 7616 [ee-core] Env: local, Type: spa
+2023-11-17 12:59:54,849 INFO 7616 [ee-core] App running at: http://localhost:8080
+2023-11-17 13:00:10,498 ERROR 7616 nodejs.TypeError: The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of WriteStream
+    at Object.mkdirSync (node:fs:1342:10)
+    at IpcMainImpl.<anonymous> (/Users/mengweiyi/Desktop/electron-egg-master/main.js:17:10)
+    at IpcMainImpl.emit (node:events:527:28)
+    at EventEmitter.<anonymous> (node:electron/js2c/browser_init:165:11237)
+    at EventEmitter.emit (node:events:527:28)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 7616
+hostname: lvjianyundeMacBook-Pro.local
+
+2023-11-17 13:00:10,510 ERROR 7616 nodejs.unhandledExceptionError: ENOENT: no such file or directory, open '/Users/mengweiyi/Desktop/壁纸/'
+Error: ENOENT: no such file or directory, open '/Users/mengweiyi/Desktop/壁纸/'
+errno: -2
+code: "ENOENT"
+syscall: "open"
+path: "/Users/mengweiyi/Desktop/壁纸/"
+name: "unhandledExceptionError"
+pid: 7616
+hostname: lvjianyundeMacBook-Pro.local
+
+2023-11-17 13:00:10,519 ERROR 7616 nodejs.unhandledExceptionError: ENOENT: no such file or directory, open '/Users/mengweiyi/Desktop/壁纸/https://static.naivetab.com/wallpaper/scenery/a6c9a56cf9230184ec6276d2.jpg'
+Error: ENOENT: no such file or directory, open '/Users/mengweiyi/Desktop/壁纸/https://static.naivetab.com/wallpaper/scenery/a6c9a56cf9230184ec6276d2.jpg'
+errno: -2
+code: "ENOENT"
+syscall: "open"
+path: "/Users/mengweiyi/Desktop/壁纸/https://static.naivetab.com/wallpaper/scenery/a6c9a56cf9230184ec6276d2.jpg"
+name: "unhandledExceptionError"
+pid: 7616
+hostname: lvjianyundeMacBook-Pro.local
+
+2023-11-17 13:02:30,131 INFO 7701 [ee-core] Env: local, Type: spa
+2023-11-17 13:02:30,131 INFO 7701 [ee-core] App running at: http://localhost:8080
+2023-11-17 13:02:41,740 ERROR 7701 nodejs.unhandledExceptionError: ENOENT: no such file or directory, open '/Users/mengweiyi/Desktop/壁纸/https://static.naivetab.com/wallpaper/scenery/1576cef52f762184ec331bb8.jpg'
+Error: ENOENT: no such file or directory, open '/Users/mengweiyi/Desktop/壁纸/https://static.naivetab.com/wallpaper/scenery/1576cef52f762184ec331bb8.jpg'
+errno: -2
+code: "ENOENT"
+syscall: "open"
+path: "/Users/mengweiyi/Desktop/壁纸/https://static.naivetab.com/wallpaper/scenery/1576cef52f762184ec331bb8.jpg"
+name: "unhandledExceptionError"
+pid: 7701
+hostname: lvjianyundeMacBook-Pro.local
+
+2023-11-17 13:05:01,246 ERROR 7701 nodejs.ReferenceError: wallpaper is not defined
+    at IpcMainImpl.<anonymous> (/Users/mengweiyi/Desktop/electron-egg-master/main.js:31:5)
+    at IpcMainImpl.emit (node:events:527:28)
+    at EventEmitter.<anonymous> (node:electron/js2c/browser_init:165:11237)
+    at EventEmitter.emit (node:events:527:28)
+
+pid: 7701
+hostname: lvjianyundeMacBook-Pro.local
+
+2023-11-17 13:06:41,448 INFO 7770 [ee-core] Env: local, Type: spa
+2023-11-17 13:06:41,448 INFO 7770 [ee-core] App running at: http://localhost:8080
+2023-11-17 13:09:36,555 ERROR 7770 nodejs.ReferenceError: wallpaper is not defined
+    at IpcMainImpl.<anonymous> (/Users/mengweiyi/Desktop/electron-egg-master/main.js:31:5)
+    at IpcMainImpl.emit (node:events:527:28)
+    at EventEmitter.<anonymous> (node:electron/js2c/browser_init:165:11237)
+    at EventEmitter.emit (node:events:527:28)
+
+pid: 7770
+hostname: lvjianyundeMacBook-Pro.local
+
+2023-11-17 13:10:18,731 ERROR 7847 nodejs.unhandledExceptionError: require() of ES Module /Users/mengweiyi/Desktop/electron-egg-master/node_modules/wallpaper/index.js from /Users/mengweiyi/Desktop/electron-egg-master/main.js not supported.
+Instead change the require of index.js in /Users/mengweiyi/Desktop/electron-egg-master/main.js to a dynamic import() which is available in all CommonJS modules.
+Instead change the require of index.js in /Users/mengweiyi/Desktop/electron-egg-master/main.js to a dynamic import() which is available in all CommonJS modules.
+    at c._load (node:electron/js2c/asar_bundle:5:13343)
+    at Object.<anonymous> (/Users/mengweiyi/Desktop/electron-egg-master/main.js:7:19)
+    at c._load (node:electron/js2c/asar_bundle:5:13343)
+    at loadApplicationPackage (/Users/mengweiyi/Desktop/electron-egg-master/node_modules/electron/dist/Electron.app/Contents/Resources/default_app.asar/main.js:121:16)
+    at Object.<anonymous> (/Users/mengweiyi/Desktop/electron-egg-master/node_modules/electron/dist/Electron.app/Contents/Resources/default_app.asar/main.js:233:9)
+    at c._load (node:electron/js2c/asar_bundle:5:13343)
+    at Object.<anonymous> (node:electron/js2c/browser_init:189:3102)
+    at ./lib/browser/init.ts (node:electron/js2c/browser_init:189:3306)
+    at __webpack_require__ (node:electron/js2c/browser_init:1:128)
+    at node:electron/js2c/browser_init:1:1200
+    at node:electron/js2c/browser_init:1:1267
+    at c._load (node:electron/js2c/asar_bundle:5:13343)
+code: "ERR_REQUIRE_ESM"
+name: "unhandledExceptionError"
+pid: 7847
+hostname: lvjianyundeMacBook-Pro.local
+
+2023-11-17 13:10:20,683 INFO 7847 [ee-core] Env: local, Type: spa
+2023-11-17 13:10:20,683 INFO 7847 [ee-core] App running at: http://localhost:8080
+2023-11-17 13:13:27,050 INFO 7926 [ee-core] Env: local, Type: spa
+2023-11-17 13:13:27,050 INFO 7926 [ee-core] App running at: http://localhost:8080
+2023-11-17 13:13:41,943 ERROR 7926 nodejs.TypeError: Cannot read properties of undefined (reading 'set')
+    at IpcMainImpl.<anonymous> (/Users/mengweiyi/Desktop/electron-egg-master/main.js:27:15)
+
+pid: 7926
+hostname: lvjianyundeMacBook-Pro.local
+
+2023-11-17 13:15:10,320 INFO 7988 [ee-core] Env: local, Type: spa
+2023-11-17 13:15:10,320 INFO 7988 [ee-core] App running at: http://localhost:8080
+2023-11-17 13:15:20,420 ERROR 7988 nodejs.TypeError: Cannot read properties of undefined (reading 'set')
+    at IpcMainImpl.<anonymous> (/Users/mengweiyi/Desktop/electron-egg-master/main.js:28:15)
+
+pid: 7988
+hostname: lvjianyundeMacBook-Pro.local
+
+2023-11-17 13:32:11,789 INFO 8079 [ee-core] Env: local, Type: spa
+2023-11-17 13:32:11,789 INFO 8079 [ee-core] App running at: http://localhost:8080
+2023-11-17 13:35:50,408 INFO 8156 [ee-core] Env: local, Type: spa
+2023-11-17 13:35:50,409 INFO 8156 [ee-core] App running at: http://localhost:8080
+2023-11-17 14:16:09,172 INFO 12166 [ee-core] Env: local, Type: spa
+2023-11-17 14:16:09,173 INFO 12166 [ee-core] App running at: http://localhost:8080
+2023-11-17 14:29:16,144 INFO 12264 [ee-core] Env: local, Type: spa
+2023-11-17 14:29:16,144 INFO 12264 [ee-core] App running at: http://localhost:8080
+2023-11-17 14:31:32,049 INFO 12326 [ee-core] Env: local, Type: spa
+2023-11-17 14:31:32,049 INFO 12326 [ee-core] App running at: http://localhost:8080
+2023-11-17 14:33:20,591 INFO 12375 [ee-core] Env: local, Type: spa
+2023-11-17 14:33:20,592 INFO 12375 [ee-core] App running at: http://localhost:8080
+2023-11-17 14:52:38,705 INFO 12500 [ee-core] Env: local, Type: spa
+2023-11-17 14:52:38,705 INFO 12500 [ee-core] App running at: http://localhost:8080
+2023-11-17 14:54:29,029 INFO 12637 [ee-core] Env: local, Type: spa
+2023-11-17 14:54:29,029 INFO 12637 [ee-core] App running at: http://localhost:8080
+2023-11-17 14:55:44,007 INFO 12689 [ee-core] Env: local, Type: spa
+2023-11-17 14:55:44,007 INFO 12689 [ee-core] App running at: http://localhost:8080
+2023-11-17 15:21:51,104 INFO 13735 [ee-core] Env: local, Type: spa
+2023-11-17 15:21:51,105 INFO 13735 [ee-core] App running at: http://localhost:8080
