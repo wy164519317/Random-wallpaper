@@ -6,7 +6,7 @@
       </div>
       <div class="bom">
         <el-button type="success" @click="downLoad('download')">下载壁纸</el-button>
-        <el-button type="success" @click="downLoad('setImg')">设为桌面壁纸</el-button>
+        <el-button type="success" @click="downLoad('setImg')">下载并设为桌面壁纸</el-button>
       </div>
     </div>
     <div class="right">

@@ -8,13 +8,15 @@ new ElectronEgg()
 
 // 下载壁纸
 ipcMain.on('download-image', async (event, arg) => {
+  const baseDirectory = path.join(app.getPath('desktop'), '壁纸')
+  const file = fs.createWriteStream(app.getPath('desktop') + '/壁纸/' + arg.name)
+  const setupPath = path.join(app.getPath('desktop') + '/壁纸/', arg.name)
+  const isWindows = os.platform() === 'win32' ? true : false
+  const wallpaperCommand = isWindows ? `PowerShell ${setupPath}` : `osascript -e 'tell application "Finder" to set desktop picture to POSIX file "${setupPath}"'`
   if (arg.type == 'download') {
-    const baseDirectory = path.join(app.getPath('desktop'), '壁纸')
-    const file = fs.createWriteStream(app.getPath('desktop') + '/壁纸/' + arg.name)
     if (!fs.existsSync(baseDirectory)) {
       fs.mkdirSync(baseDirectory, { recursive: true })
     }
-
     https.get(arg.url, (response) => {
       response.pipe(file)
       file.on('finish', () => {
@@ -25,33 +27,25 @@ ipcMain.on('download-image', async (event, arg) => {
       event.reply('downloadimg', { type: 'error' })
     })
   } else {
-    const isWindows = os.platform() === 'win32' ? true : false
-    const currentDir = app.getPath('userData')
-    const currentFilePath = path.join(currentDir, arg.name)
-    const wallpaperCommand = isWindows ? `PowerShell ${currentFilePath}` : `osascript -e 'tell application "Finder" to set desktop picture to POSIX file "${currentFilePath}"'`
-
-    const fileStream = fs.createWriteStream(currentFilePath)
+    if (!fs.existsSync(baseDirectory)) {
+      fs.mkdirSync(baseDirectory, { recursive: true })
+    }
     https.get(arg.url, (response) => {
-      response.pipe(fileStream)
-      fileStream.on('finish', () => {
-        fileStream.close()
+      response.pipe(file)
+      file.on('finish', () => {
+        file.close()
         const childProcess = require('child_process').exec(wallpaperCommand, (error) => {
           if (error) {
             console.error(`Error setting wallpaper: ${error.message}`)
             event.reply('setimg', { type: 'no', msg: '设置失败' })
-            fs.unlinkSync(currentFilePath)
+            fs.unlinkSync(setupPath)
           } else {
             event.reply('setimg', { type: 'ok' })
-            fs.unlinkSync(currentFilePath)
           }
         })
       })
     }).on('error', (err) => {
       event.reply('setimg', { type: 'no', msg: '网络错误' })
     })
-
-
-
-
   }
 })
